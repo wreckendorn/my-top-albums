@@ -1,0 +1,76 @@
+body {
+  padding: 5px;
+  background-color: whitesmoke;
+}
+
+.hero-image {
+  background-image: url("./easy_listening.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: auto;
+  height: 800px;
+  filter: sepia(0%) saturate(200%) brightness(70%) hue-rotate(130deg);
+}
+
+.hero-text {
+  color: whitesmoke;
+  width: 400px;
+  position: absolute;
+  top: 23%;
+  right: 8%;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 50px;
+  text-align: right;
+  text-shadow: black;
+}
+
+h1 {
+  margin: 5px;
+}
+
+.album-container {
+  padding: 100px;
+  width: 50%;
+  margin: auto;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  border-style: solid;
+}
+
+.album-cover {
+  /* background-image: url("./images/Mahal.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; */
+  width: 100%;
+  padding: 10px;
+}
+
+.artist {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 50px;
+  margin-bottom: 0;
+  margin-top: 15px;
+}
+
+.album {
+  font-family: 'Kodchasan', sans-serif;
+  font-size: 30px;
+  margin: 0;
+}
+
+.album-description {
+  font-family: 'Tajawal', sans-serif;
+}
+
+.album-label {
+  font-family: 'Tajawal', sans-serif;
+  color: grey;
+}
+
+.album-link {
+  text-decoration: none;
+  color: grey;
+}
