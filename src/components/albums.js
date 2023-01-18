@@ -1,11 +1,10 @@
 import React from "react"
 
-
 export default function Albums(props) {
-    console.log(props.items.album_cover.value)
+    console.log(props.items.album_cover)
     return (
         <div className="album-container">
-            <img src={props.items.album_cover.value} className="album-cover" alt="cover of the Mahal album" />
+            <img src={props.items.album_cover} className="album-cover" alt={`cover of the ${props.items.album_title} album`} />
             <h3 className="artist">{props.items.album_artist}</h3>
             <h3 className="album">{props.items.album_title}</h3>
             <p className="album-label">{props.items.album_label}</p>

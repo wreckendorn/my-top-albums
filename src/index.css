@@ -4,7 +4,7 @@ body {
 }
 
 .hero-image {
-  background-image: url("./easy_listening.jpg");
+  background-image: url("./images/easy_listening.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -36,7 +36,8 @@ h1 {
   align-items: center;
   position: relative;
   text-align: center;
-  border-style: solid;
+  border-top: 1px solid lightgrey;
+  /* border-style: solid; */
 }
 
 .album-cover {
